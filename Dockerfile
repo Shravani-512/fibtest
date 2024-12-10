@@ -5,8 +5,8 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Python program into the container
-COPY fibonacci.py .
+COPY fib.py .
 
 # Command to run the Python program
-CMD ["python", "fibonacci.py"]
+CMD ["python", "fib.py"]
 
